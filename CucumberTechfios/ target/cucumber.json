@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Clients should be able to login, with correct credentials",
+        "description": "",
+        "id": "client-should-be-able-to-login;clients-should-be-able-to-login,-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15100155300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in login Page",
+            "match": {
+              "location": "LoginSteps.user_is_already_in_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5470300900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"techfiosdemo@gmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techfiosdemo@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 691566000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "After login close the browser",
+            "match": {
+              "location": "LoginSteps.after_login_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Client should be able to login",
+    "description": "",
+    "id": "client-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
